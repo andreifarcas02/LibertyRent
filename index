@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty Rent A Car</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 200px;
+        }
+        nav {
+            background-color: #002244;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .hero {
+            background: url('rental-hero.jpg') center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background: #003366;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/LIBERTY RENT (2).png" alt="Liberty Rent A Car Logo" class="logo">
+        <h1>Welcome to Liberty Rent A Car</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="fleet.html">Our Fleet</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a href="terms.html">Terms & Conditions</a>
+    </nav>
+
+    <div class="hero">Find Your Perfect Ride Today!</div>
+
+    <div class="container">
+        <h2>Welcome to Liberty Rent A Car</h2>
+        <p>Your journey starts here! Explore our fleet, book a car, and enjoy your ride in Cluj-Napoca.</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@libertyrentacar.com</p>
+        <p>Phone: +40 0742 871 045</p>
+        <p>Location: Cluj-Napoca, Romania</p>
+    </div>
+</body>
+</html>
